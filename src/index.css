@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  overflow-x: hidden;
+  background-color: white;
+}
+.navbar{
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(rgba(216, 183, 145, 0.986),
+          rgba(175, 94, 94, 0.336)),
+      url("https://www.unisolcommunications.com/wp-content/uploads/2021/01/AI-Powered-Video-Analytics-in-CCTV-768x497.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  
+}
+
+.login_img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAzL3Jhd3BpeGVsX29mZmljZV80NV9waG90b19vZl9jeWJlcl9zZWN1cml0eV9wcmludF9jaXJjdWl0X3RlY2hub185NzE2YmFhYy00MGJhLTRmMzMtODMxNi01M2IwM2RkOTU2YmRfMS5qcGc.jpg');
+  border-radius: 7px;
+  margin-left: -4.5rem;
+}
+.register_img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://t3.ftcdn.net/jpg/04/43/70/20/360_F_443702089_Du3AvDIohGuY892HOcuAUv7UlZPlURcY.jpg');
+  border-radius: 7px;
+  margin-left: -4.5rem;
+}
+
+
+
+/*coutup*/
+.coutup{
+  background-color: black;
+  color: white;
+  padding: 100px;
+  
+}
+
+
+.solutions{
+  background-color: #333;
+  color: white;
+}
+
+.service{
+  background-color: #e2a56b;
+  color: white;
+}
+.services{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(rgba(180, 152, 120, 0.986),
+          rgba(116, 44, 44, 0.336)),
+      url("https://thumbs.dreamstime.com/b/skilled-serious-male-manager-talk-to-diverse-business-people-group-meeting-sit-conference-table-multi-ethnic-team-interns-160755176.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.about{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(rgba(116, 96, 72, 0.986),
+          rgba(116, 44, 44, 0.336)),
+      url("https://thumbs.dreamstime.com/b/happy-diverse-business-team-standing-office-looking-camera-professional-stand-smiling-young-old-multiracial-workers-152638071.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.review{
+  height: 650px;
+  width: 100%;
+  background: 
+      url("https://static01.nyt.com/images/2022/02/21/business/00tech-offices1/merlin_201807411_fcbafae1-0068-4b0e-b6e1-a0c6b6cbb798-superJumbo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/*Login*/
+.login{
+  min-height: 100vh;
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-illustration-of-data-security-privacy-and-cyber-protection-image_3790461.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper{
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+}
+.input-box .form-control{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+  color: #fff;
+}
+.icon{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.button{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.register p{
+  font-size: 14.5px;
+  text-align: right;
+  margin: 20px 0 15px;
+}
+.register .register-link{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register .register-link:hover{
+  text-decoration: underline;
+}
+ 
+
+.contact{
+  min-height: 100vh;
+  background: url('https://itc.gymkhana.iitb.ac.in/static/mainwebsite/images/contact_us_2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact_form {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+/*admin*/
+
+.adminpage{
+  font-family: "Poppins", sans-serif;
+  overflow-y: hidden;
+}
+ 
+
+:root {
+  --background-color1: #fafaff;
+  --background-color2: #ffffff;
+}
+
+
+
+
+header {
+  height: 70px;
+  width: 100vw;
+  padding: 0 30px;
+  background-color: var(--background-color1);
+  position: fixed;
+  z-index: 100;
+  box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 600;
+  color: #073642;
+}
+
+.icn {
+  height: 30px;
+}
+.menuicn {
+  cursor: pointer;
+}
+
+
+.message,
+.logosec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.logosec {
+  gap: 60px;
+}
+
+
+
+.message {
+  gap: 40px;
+  position: relative;
+  cursor: pointer;
+}
+.circle {
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  background-color: #fa7bb4;
+  border-radius: 50%;
+  left: 19px;
+  top: 8px;
+}
+.dp {
+  height: 40px;
+  width: 40px;
+  background-color: #626262;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.main-container {
+  display: flex;
+  width: 100vw;
+  position: relative;
+  top: 70px;
+  z-index: 1;
+  height: 99px;
+}
+.dpicn {
+  height: 42px;
+}
+
+
+
+.main::-webkit-scrollbar-track {
+  background-color: #9e9e9eb2;
+}
+
+
+.nav {
+  min-height: 99vh;
+  width: 250px;
+  background-color: var(--background-color2);
+  position: absolute;
+  top: 0px;
+  left: 00;
+  box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 30px 0 20px 10px;
+}
+.navcontainer {
+  height: 1040px;
+  width: 250px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.navcontainer::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-option {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 20px;
+  gap: 20px;
+  transition: all 0.1s ease-in-out;
+}
+.nav-option:hover {
+  border-left: 5px solid #a2a2a2;
+  background-color: #dadada;
+  cursor: pointer;
+}
+
+
+.nav-upper-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.containers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+  margin-left: 6rem;
+}
